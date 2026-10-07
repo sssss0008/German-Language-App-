@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Warm Bakery Background -->
+    <path
+        android:pathData="M60,10 A50,50 0 1,1 59.9,10 Z"
+        android:fillColor="#FFF3E0" />
+
+    <!-- German Rye Bread Loaf (Roggenmischbrot) -->
+    <!-- Bread Shadow -->
+    <path
+        android:pathData="M24,78 Q60,94 96,78 Q60,86 24,78 Z"
+        android:fillColor="#FFE0B2" />
+    <!-- Bread Body -->
+    <path
+        android:pathData="M26,72 C22,62 30,42 60,42 C90,42 98,62 94,72 C90,82 30,82 26,72 Z"
+        android:fillColor="#6D4C41" />
+    <path
+        android:pathData="M30,68 C28,58 35,45 60,45 C85,45 92,58 90,68 C86,76 34,76 30,68 Z"
+        android:fillColor="#8D6E63" />
+
+    <!-- Traditional Artisan Flour Dusting & Crust Cuts (Einschnitte) -->
+    <path
+        android:pathData="M44,48 Q40,62 46,70"
+        android:strokeColor="#D7CCC8"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M60,46 Q58,62 62,70"
+        android:strokeColor="#D7CCC8"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M76,48 Q74,62 78,70"
+        android:strokeColor="#D7CCC8"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round" />
+
+    <!-- Traditional Brötchen (German Bread Roll) beside the loaf -->
+    <path
+        android:pathData="M68,82 C65,72 75,64 88,65 C101,66 106,75 102,84 C98,90 71,90 68,82 Z"
+        android:fillColor="#A1887F" />
+    <path
+        android:pathData="M74,74 Q84,72 96,75"
+        android:strokeColor="#D7CCC8"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round" />
+</vector>

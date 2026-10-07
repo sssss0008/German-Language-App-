@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- German Flag badge in circle background behind icon -->
+    <!-- Top Stripe (Black/Dark) -->
+    <path
+        android:pathData="M38,32 C43,30 65,30 70,32 C72,32 74,34 74,36 L74,40 L34,40 L34,36 C34,34 36,32 38,32 Z"
+        android:fillColor="#212121" />
+    <!-- Middle Stripe (Red) -->
+    <path
+        android:pathData="M34,40 L74,40 L74,46 L34,46 Z"
+        android:fillColor="#E53935" />
+    <!-- Bottom Stripe (Gold/Yellow) -->
+    <path
+        android:pathData="M34,46 L74,46 L74,50 C74,52 72,54 70,54 C65,56 43,56 38,54 C36,54 34,52 34,50 Z"
+        android:fillColor="#FFD54F" />
+
+    <!-- Open Book Base White -->
+    <path
+        android:pathData="M54,54 C48,51 38,51 32,54 C30.5,54.7 30,56 30,57.5 L30,73 C30,74 31,74.5 32,74 C37,71.5 47,71.5 53,74.5 C53.6,74.8 54.4,74.8 55,74.5 C61,71.5 71,71.5 76,74 C77,74.5 78,74 78,73 L78,57.5 C78,56 77.5,54.7 76,54 C70,51 60,51 54,54 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Book Spine & Pages Divider -->
+    <path
+        android:pathData="M53,54 L55,54 L55,75 L53,75 Z"
+        android:fillColor="#CFD8DC" />
+
+    <!-- Page lines left -->
+    <path
+        android:pathData="M35,60 L50,60 M35,64 L50,64 M35,68 L47,68"
+        android:strokeColor="#90A4AE"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round" />
+
+    <!-- Page lines right -->
+    <path
+        android:pathData="M58,60 L73,60 M58,64 L73,64 M58,68 L71,68"
+        android:strokeColor="#90A4AE"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round" />
+
+    <!-- Star / Sparkle of Learning -->
+    <path
+        android:pathData="M54,23 L55.5,27.5 L60,29 L55.5,30.5 L54,35 L52.5,30.5 L48,29 L52.5,27.5 Z"
+        android:fillColor="#FFD54F" />
+</vector>

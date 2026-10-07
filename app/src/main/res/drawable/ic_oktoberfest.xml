@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Bavarian Diamond Pattern Circle Backdrop -->
+    <path
+        android:pathData="M60,10 A50,50 0 1,1 59.9,10 Z"
+        android:fillColor="#E3F2FD" />
+    <path
+        android:pathData="M35,25 L60,45 L35,65 L10,45 Z M85,25 L110,45 L85,65 L60,45 Z M60,65 L85,85 L60,105 L35,85 Z"
+        android:fillColor="#BBDEFB" />
+
+    <!-- German Pretzel (Brezel) -->
+    <!-- Pretzel outer loop -->
+    <path
+        android:pathData="M60,32 C46,32 30,42 28,60 C26,76 38,92 52,92 C60,92 64,84 60,74 C56,64 45,55 45,45 C45,39 51,37 60,37 C69,37 75,39 75,45 C75,55 64,64 60,74 C56,84 60,92 68,92 C82,92 94,76 92,60 C90,42 74,32 60,32 Z"
+        android:strokeColor="#8D5B28"
+        android:strokeWidth="11"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <!-- Pretzel inner golden glaze -->
+    <path
+        android:pathData="M60,32 C46,32 30,42 28,60 C26,76 38,92 52,92 C60,92 64,84 60,74 C56,64 45,55 45,45 C45,39 51,37 60,37 C69,37 75,39 75,45 C75,55 64,64 60,74 C56,84 60,92 68,92 C82,92 94,76 92,60 C90,42 74,32 60,32 Z"
+        android:strokeColor="#C68A4C"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Salt crystals on pretzel -->
+    <path
+        android:pathData="M34,54 L36,54 M78,48 L80,48 M42,78 L44,78 M76,78 L78,78 M58,35 L60,35 M50,86 L52,86 M70,86 L72,86"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:strokeLineCap="square" />
+
+    <!-- Wheat stalks left & right -->
+    <path
+        android:pathData="M16,92 Q22,70 30,58"
+        android:strokeColor="#F59E0B"
+        android:strokeWidth="2.5" />
+    <path
+        android:pathData="M104,92 Q98,70 90,58"
+        android:strokeColor="#F59E0B"
+        android:strokeWidth="2.5" />
+</vector>

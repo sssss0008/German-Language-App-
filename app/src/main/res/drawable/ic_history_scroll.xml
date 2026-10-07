@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Warm Parchment Circle Background -->
+    <path
+        android:pathData="M60,10 A50,50 0 1,1 59.9,10 Z"
+        android:fillColor="#EFEBE9" />
+
+    <!-- Open Scroll / Manuscript -->
+    <path
+        android:pathData="M30,30 Q45,26 60,30 Q75,34 90,30 L90,85 Q75,89 60,85 Q45,81 30,85 Z"
+        android:fillColor="#FFF8E1" />
+    <path
+        android:pathData="M30,30 Q45,26 60,30 Q75,34 90,30 L90,85 Q75,89 60,85 Q45,81 30,85 Z"
+        android:strokeColor="#8D6E63"
+        android:strokeWidth="2" />
+
+    <!-- Text lines on scroll representing German literature & printing -->
+    <path
+        android:pathData="M38,42 L82,42 M38,49 L82,49 M38,56 L76,56 M38,63 L82,63 M38,70 L72,70"
+        android:strokeColor="#A1887F"
+        android:strokeWidth="2"
+        android:strokeLineCap="round" />
+
+    <!-- Golden Imperial / Royal Seal at bottom right of document -->
+    <path
+        android:pathData="M78,76 A9,9 0 1,1 77.9,76 Z"
+        android:fillColor="#FFA000" />
+    <path
+        android:pathData="M78,79 A5,5 0 1,1 77.9,79 Z"
+        android:fillColor="#FFC107" />
+    <!-- Seal ribbon -->
+    <path
+        android:pathData="M75,83 L72,98 L78,94 L84,98 L81,83 Z"
+        android:fillColor="#D32F2F" />
+
+    <!-- Quill / Fountain pen across scroll -->
+    <path
+        android:pathData="M88,20 Q84,36 62,60 L58,56 Q80,32 88,20 Z"
+        android:fillColor="#37474F" />
+    <path
+        android:pathData="M58,56 L54,64 L62,60 Z"
+        android:fillColor="#FFB300" />
+</vector>

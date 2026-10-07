@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Sun / Sky Circle Background -->
+    <path
+        android:pathData="M60,15 A48,48 0 1,1 59.9,15 Z"
+        android:fillColor="#FFF8E1" />
+
+    <!-- Quadriga (Chariot of Goddess Victoria on top) -->
+    <!-- Goddess & Chariot silhouette -->
+    <path
+        android:pathData="M57,28 L63,28 L62,38 L58,38 Z"
+        android:fillColor="#455A64" />
+    <path
+        android:pathData="M52,36 L68,36 L68,40 L52,40 Z"
+        android:fillColor="#37474F" />
+    <!-- 4 Horses Silhouettes -->
+    <path
+        android:pathData="M44,30 L48,34 L46,40 L42,40 Z M50,29 L54,34 L53,40 L49,40 Z M66,29 L70,34 L69,40 L65,40 Z M72,30 L76,34 L74,40 L70,40 Z"
+        android:fillColor="#546E7A" />
+
+    <!-- Main Entablature / Roof Beam -->
+    <path
+        android:pathData="M20,40 L100,40 L100,48 L20,48 Z"
+        android:fillColor="#B0BEC5" />
+    <path
+        android:pathData="M16,48 L104,48 L104,54 L16,54 Z"
+        android:fillColor="#78909C" />
+
+    <!-- The 6 Doric Columns of Brandenburg Gate -->
+    <path
+        android:pathData="M22,54 L28,54 L28,95 L22,95 Z"
+        android:fillColor="#CFD8DC" />
+    <path
+        android:pathData="M35,54 L41,54 L41,95 L35,95 Z"
+        android:fillColor="#ECEFF1" />
+    <path
+        android:pathData="M48,54 L54,54 L54,95 L48,95 Z"
+        android:fillColor="#CFD8DC" />
+    <path
+        android:pathData="M66,54 L72,54 L72,95 L66,95 Z"
+        android:fillColor="#ECEFF1" />
+    <path
+        android:pathData="M79,54 L85,54 L85,95 L79,95 Z"
+        android:fillColor="#CFD8DC" />
+    <path
+        android:pathData="M92,54 L98,54 L98,95 L92,95 Z"
+        android:fillColor="#ECEFF1" />
+
+    <!-- Base Plinth -->
+    <path
+        android:pathData="M14,95 L106,95 L106,102 L14,102 Z"
+        android:fillColor="#546E7A" />
+    <path
+        android:pathData="M10,102 L110,102 L110,106 L10,106 Z"
+        android:fillColor="#37474F" />
+</vector>

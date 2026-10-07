@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Mountain Background -->
+    <path
+        android:pathData="M0,100 L30,45 L65,100 Z"
+        android:fillColor="#37474F" />
+    <path
+        android:pathData="M45,100 L85,35 L120,100 Z"
+        android:fillColor="#455A64" />
+    <path
+        android:pathData="M20,100 L55,50 L90,100 Z"
+        android:fillColor="#546E7A" />
+
+    <!-- Castle Base and Walls -->
+    <path
+        android:pathData="M30,100 L30,70 L90,70 L90,100 Z"
+        android:fillColor="#ECEFF1" />
+
+    <!-- Main Castle Towers -->
+    <!-- Left Tower -->
+    <path
+        android:pathData="M32,70 L32,48 L46,48 L46,70 Z"
+        android:fillColor="#CFD8DC" />
+    <!-- Left Tower Spire (Blue cone) -->
+    <path
+        android:pathData="M39,26 L30,48 L48,48 Z"
+        android:fillColor="#1565C0" />
+
+    <!-- Tall Central Keep Tower -->
+    <path
+        android:pathData="M52,70 L52,40 L68,40 L68,70 Z"
+        android:fillColor="#FFFFFF" />
+    <!-- Central Tower Spire -->
+    <path
+        android:pathData="M60,18 L50,40 L70,40 Z"
+        android:fillColor="#0D47A1" />
+
+    <!-- Right Tower -->
+    <path
+        android:pathData="M74,70 L74,52 L88,52 L88,70 Z"
+        android:fillColor="#CFD8DC" />
+    <!-- Right Tower Spire -->
+    <path
+        android:pathData="M81,30 L72,52 L90,52 Z"
+        android:fillColor="#1565C0" />
+
+    <!-- Battlements & Windows -->
+    <path
+        android:pathData="M57,48 L63,48 L63,56 L57,56 Z M57,60 L63,60 L63,68 L57,68 Z M37,54 L41,54 L41,60 L37,60 Z M79,56 L83,56 L83,62 L79,62 Z"
+        android:fillColor="#263238" />
+
+    <!-- Main Gate Arch -->
+    <path
+        android:pathData="M54,100 L54,84 A6,6 0 0,1 66,84 L66,100 Z"
+        android:fillColor="#37474F" />
+
+    <!-- Ground / Hills -->
+    <path
+        android:pathData="M0,95 Q40,88 70,96 T120,95 L120,120 L0,120 Z"
+        android:fillColor="#2E7D32" />
+</vector>
